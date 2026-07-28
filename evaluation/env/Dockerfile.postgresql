@@ -3,7 +3,7 @@ FROM postgres:14.12
 
 # Set up environment variables for user and password
 ENV POSTGRES_USER=root
-ENV POSTGRES_PASSWORD=123123
+ENV POSTGRES_PASSWORD="Y.sa123123"
 
 # Install PostGIS packages for PostgreSQL 14
 RUN apt-get update \
