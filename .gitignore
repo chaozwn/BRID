@@ -5,6 +5,12 @@ evaluation/postgre_table_dumps/
 evaluation/mssql_table_dumps/
 evaluation/sqlite_databases_test/
 evaluation/hf_sqlite_tmp/
+
+# infini runner: credentials and run artifacts
+infini/infini_credential.json
+infini/output/
+infini/logs/
+**/__pycache__/
 **/.DS_Store
 .DS_Store
 .temp
