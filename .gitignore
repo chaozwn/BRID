@@ -3,6 +3,8 @@ evaluation/mysql_table_dumps/
 evaluation/oracle_table_dumps/
 evaluation/postgre_table_dumps/
 evaluation/mssql_table_dumps/
+evaluation/sqlite_databases_test/
+evaluation/hf_sqlite_tmp/
 **/.DS_Store
 .DS_Store
 .temp
