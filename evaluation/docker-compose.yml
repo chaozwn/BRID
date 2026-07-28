@@ -49,7 +49,7 @@ services:
     ports:
       - "1433:1433"
 
-  oracle:
+  {# oracle:
     build:
       context: .
       dockerfile: ./env/Dockerfile.oracle
@@ -62,7 +62,7 @@ services:
       - "1521:1521"
     volumes:
       - oracle_data:/opt/oracle/oradata
-      - ./oracle_table_dumps:/oracle_table_dumps
+      - ./oracle_table_dumps:/oracle_table_dumps #}
 
   so_eval_env:
     build:
@@ -78,7 +78,7 @@ services:
       - mysql
       - postgresql
       - mssql
-      - oracle
+      {# - oracle #}
     command: ["tail", "-f", "/dev/null"]
 
 volumes:
